@@ -1,0 +1,51 @@
+*** Creating Trace Output File 'stm32f4 Configuration\stm32f4 Configuration.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"stm32f4 configuration\startup_stm32f407xx.o"'
+### List of Objects: adding '"stm32f4 configuration\main.o"'
+### List of Objects: adding '"stm32f4 configuration\stm32f4xx_it.o"'
+### List of Objects: adding '"stm32f4 configuration\system_stm32f4xx.o"'
+### List of Objects: adding '"stm32f4 configuration\stm32f4xx_hal.o"'
+### List of Objects: adding '"stm32f4 configuration\stm32f4xx_hal_cortex.o"'
+### List of Objects: adding '"stm32f4 configuration\stm32f4xx_hal_dma.o"'
+### List of Objects: adding '"stm32f4 configuration\stm32f4xx_hal_dma_ex.o"'
+### List of Objects: adding '"stm32f4 configuration\stm32f4xx_hal_flash.o"'
+### List of Objects: adding '"stm32f4 configuration\stm32f4xx_hal_flash_ex.o"'
+### List of Objects: adding '"stm32f4 configuration\stm32f4xx_hal_gpio.o"'
+### List of Objects: adding '"stm32f4 configuration\stm32f4xx_hal_i2c.o"'
+### List of Objects: adding '"stm32f4 configuration\stm32f4xx_hal_i2c_ex.o"'
+### List of Objects: adding '"stm32f4 configuration\stm32f4xx_hal_iwdg.o"'
+### List of Objects: adding '"stm32f4 configuration\stm32f4xx_hal_pwr.o"'
+### List of Objects: adding '"stm32f4 configuration\stm32f4xx_hal_pwr_ex.o"'
+### List of Objects: adding '"stm32f4 configuration\stm32f4xx_hal_rcc.o"'
+### List of Objects: adding '"stm32f4 configuration\stm32f4xx_hal_rcc_ex.o"'
+### List of Objects: adding '"stm32f4 configuration\stm32f4xx_hal_spi.o"'
+### List of Objects: adding '"stm32f4 configuration\stm32f4xx_hal_uart.o"'
+### List of Objects: adding '"stm32f4 configuration\stm32f4xx_hal_tim.o"'
+### List of Objects: adding '"stm32f4 configuration\stm32f4xx_hal_tim_ex.o"'
+### List of Objects: adding '"stm32f4 configuration\systemclock.o"'
+### List of Objects: adding '"stm32f4 configuration\hal_bus8bit.o"'
+### List of Objects: adding '"stm32f4 configuration\hal_flash.o"'
+### List of Objects: adding '"stm32f4 configuration\retarget.o"'
+### List of Objects: adding '"stm32f4 configuration\usart_io.o"'
+### List of Objects: adding '"stm32f4 configuration\hal_debug.o"'
+### List of Objects: adding '"stm32f4 configuration\stm32f4xx_hal_msp.o"'
+### List of Objects: adding '"stm32f4 configuration\bsp.o"'
+### List of Objects: adding '"stm32f4 configuration\compute.o"'
+### List of Objects: adding '"stm32f4 configuration\printer.o"'
+### List of Objects: adding '"stm32f4 configuration\test_case.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M4.fp "stm32f4 configuration\startup_stm32f407xx.o" "stm32f4 configuration\main.o" "stm32f4 configuration\stm32f4xx_it.o" "stm32f4 configuration\system_stm32f4xx.o" "stm32f4 configuration\stm32f4xx_hal.o" "stm32f4 configuration\stm32f4xx_hal_cortex.o" "stm32f4 configuration\stm32f4xx_hal_dma.o" "stm32f4 configuration\stm32f4xx_hal_dma_ex.o" "stm32f4 configuration\stm32f4xx_hal_flash.o" "stm32f4 configuration\stm32f4xx_hal_flash_ex.o" "stm32f4 configuration\stm32f4xx_hal_gpio.o" "stm32f4 configuration\stm32f4xx_hal_i2c.o" "stm32f4 configuration\stm32f4xx_hal_i2c_ex.o" "stm32f4 configuration\stm32f4xx_hal_iwdg.o" "stm32f4 configuration\stm32f4xx_hal_pwr.o" "stm32f4 configuration\stm32f4xx_hal_pwr_ex.o" "stm32f4 configuration\stm32f4xx_hal_rcc.o" "stm32f4 configuration\stm32f4xx_hal_rcc_ex.o" "stm32f4 configuration\stm32f4xx_hal_spi.o" "stm32f4 configuration\stm32f4xx_hal_uart.o" "stm32f4 configuration\stm32f4xx_hal_tim.o" "stm32f4 configuration\stm32f4xx_hal_tim_ex.o" "stm32f4 configuration\systemclock.o" "stm32f4 configuration\hal_bus8bit.o" "stm32f4 configuration\hal_flash.o" "stm32f4 configuration\retarget.o" "stm32f4 configuration\usart_io.o" "stm32f4 configuration\hal_debug.o" "stm32f4 configuration\stm32f4xx_hal_msp.o" "stm32f4 configuration\bsp.o" "stm32f4 configuration\compute.o" "stm32f4 configuration\printer.o" "stm32f4 configuration\test_case.o" --library_type=microlib --strict --scatter "stm32f4 Configuration\stm32f4 Configuration.sct" 
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list "stm32f4 Configuration.map" -o "stm32f4 Configuration\stm32f4 Configuration.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'stm32f4 Configuration\stm32f4 Configuration.axf'
+### ADS-LD Command File: 'stm32f4 Configuration\stm32f4 Configuration.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'stm32f4 Configuration\stm32f4 Configuration.lnp', Handle=0x000008A0
+### Writing '.lnp' file
+### ADS-LD Command file 'stm32f4 Configuration\stm32f4 Configuration.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

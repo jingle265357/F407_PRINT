@@ -42,7 +42,7 @@
 ### ADS-LD Output File: 'stm32f4 Configuration\stm32f4 Configuration.axf'
 ### ADS-LD Command File: 'stm32f4 Configuration\stm32f4 Configuration.lnp'
 ### Checking for dirty Components...
-### Creating CmdFile 'stm32f4 Configuration\stm32f4 Configuration.lnp', Handle=0x000008A0
+### Creating CmdFile 'stm32f4 Configuration\stm32f4 Configuration.lnp', Handle=0x00000550
 ### Writing '.lnp' file
 ### ADS-LD Command file 'stm32f4 Configuration\stm32f4 Configuration.lnp' is ready.
 ### ADS-LD: About to start ADS-LD Thread.

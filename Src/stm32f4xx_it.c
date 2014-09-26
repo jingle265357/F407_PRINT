@@ -59,6 +59,7 @@ void SysTick_Handler(void)
 {
   HAL_IncTick();
   HAL_SYSTICK_IRQHandler();
+  prt_stm.tim_flag = 1;
 }
 
 /**
@@ -75,8 +76,10 @@ void PRT_TIM_IRQHandler(void)
 {
   HAL_TIM_IRQHandler(&TimHandle);
   ;
-	prt_print();
-
+	if(	prt_stm.FF_flag)
+		PRT_dry_run();
+	else
+		prt_print();
 }
 
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

@@ -188,6 +188,9 @@ int USART_IO_ReadCount(USER_UART_HandleTypeDef *pHandle)
 
 int USART_IO_Write(USER_UART_HandleTypeDef *pHandle, unsigned char *buff, unsigned int len)
 {
+
+
+
 		if(HAL_UART_Transmit_IT(&pHandle->UartHandle, buff, len)==HAL_OK)
 				return len;
 		else 

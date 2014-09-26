@@ -17,7 +17,13 @@ void port_init(void)
 	GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
   	GPIO_InitStruct.Pull = GPIO_NOPULL;
 	HAL_GPIO_Init(PRT_GPIO, &GPIO_InitStruct); 
+
+
+	GPIO_InitStruct.Pin = PAPER_FF;
+	GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  	GPIO_InitStruct.Pull = GPIO_PULLUP;
+	HAL_GPIO_Init(PRT_GPIO, &GPIO_InitStruct); 
 	
 	CLK_L();
-	
+	LAT_H();
 }

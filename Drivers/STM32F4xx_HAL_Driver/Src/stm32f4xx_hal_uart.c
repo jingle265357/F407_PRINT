@@ -1159,7 +1159,7 @@ void HAL_UART_IRQHandler(UART_HandleTypeDef *huart)
   }
   
   tmp1 = __HAL_UART_GET_FLAG(huart, UART_FLAG_TC);
-  tmp2 = __HAL_UART_GET_IT_SOURCE(huart, UART_IT_TC);
+  tmp2 = __HAL_UART_GET_IT_SOURCE(huart, UART_IT_TC); //еп╤ожу╤кт╢
   /* UART in mode Transmitter ------------------------------------------------*/
   if((tmp1 != RESET) && (tmp2 != RESET))
   {
